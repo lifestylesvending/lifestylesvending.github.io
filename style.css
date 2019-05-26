@@ -2,6 +2,18 @@
 body, html {
     height: 100%
   }
+
+  .logo {
+    background-image: url('./images/LifestylesVendingLogo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+  }
+
+  .spacer {
+      height: 30px;
+  }
   
   .bgimg {
     /* Background image */
@@ -11,7 +23,7 @@ body, html {
     /* Center the background image */
     background-position: center;
     /* Scale and zoom in the image */
-    background-size: cover;
+    background-size: ;
     /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
     position: relative;
     /* Add a white text color to all elements inside the .bgimg container */
@@ -44,8 +56,8 @@ body, html {
   /* Position text in the middle */
   .middle {
     position: absolute;
-    text-shadow: 2px 2px;
-    color: white;
+    /* text-shadow: 2px 2px; */
+    color: black;
     font-size: 40px;
     top: 50%;
     left: 50%;
